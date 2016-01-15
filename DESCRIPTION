@@ -6,5 +6,5 @@ Date: 2015-12-29
 Author: Marco Toledo Bastos
 Maintainer: Marco Toledo Bastos <marco@toledobastos.com>
 Imports: RCurl, jsonlite, httr, utils
-Description: Social media search and analytic tool that takes one or multiple URL(s) and returns the information about the popularity and reach of the URL(s) on social media. The function get_socialmedia retrieves the number of shares, likes, pins, and hits on Facebook, Pinterest, StumbleUpon, LinkedIn, and Reddit. The package also includes dedicated functions for each social network platform and a function to decode shortened URLs.
+Description: Social media search and analytic tool that takes one or multiple URL(s) and returns the information about the popularity and reach of the URL(s) on social media. The function get_socialmedia() retrieves the number of shares, likes, pins, and hits on Facebook (www.facebook.com), Pinterest (www.pinterest.com), StumbleUpon (www.stumbleupon.com), LinkedIn (www.linkedin.com), and Reddit (www.reddit.com). The package also includes dedicated functions for each social network platform and a function to resolve shortened URLs.
 License: GPL (>= 2)

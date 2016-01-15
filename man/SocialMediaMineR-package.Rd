@@ -15,7 +15,7 @@ Version: \tab 0.1\cr
 Date: \tab 2014-06-20\cr
 License: \tab GPL (>= 2)\cr
 }
-The function get_socialmedia returns a data frame with the number of shares, likes, pins, and hits on Facebook, Pinterest, StumbleUpon, LinkedIn, and Reddit. The resulting data frame includes the following 15 columns:
+The function get_socialmedia() returns a data frame with the number of shares, likes, pins, and hits on Facebook, Pinterest, StumbleUpon, LinkedIn, and Reddit. The resulting data frame includes the following 15 columns:
 
 url URL searched
 normalized_url URL returned
@@ -32,7 +32,7 @@ lkn_shares number of LinkedIn shares
 stu_views number of StumbleUpon views
 pin_counts number of pins on Pinterest
 
-The package also includes dedicated functions to each social network platform. The function get_facebook performs a search on Facebook, get_linkedin on LinkedIn, get_pinterest on Pinterest, get_reddit on Reddit, and get_stumbleupon on StumbleUpon. The function get_url resolves shortened URLs and can be used with the aforementioned functions.
+The package also includes dedicated functions to each social network platform. The function get_facebook() performs a search on Facebook, get_linkedin on LinkedIn, get_pinterest() on Pinterest, get_reddit() on Reddit, and get_stumbleupon() on StumbleUpon. The function get_url() resolves shortened URLs and can be used with the aforementioned functions.
 }
 \author{
 Marco Toledo Bastos
