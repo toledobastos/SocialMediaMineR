@@ -1,6 +1,7 @@
 import(RCurl)
 import(jsonlite)
 import(httr)
+import(utils)
 export(get_socialmedia)
 export(get_url)
 export(get_facebook)

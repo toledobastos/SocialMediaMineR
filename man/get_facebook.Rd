@@ -1,7 +1,7 @@
 \name{get_facebook}
 \alias{get_facebook}
 \title{
-Get the number of Facebook likes, shares, and comments of a specific URL
+Retrieves the number of Facebook likes, shares, and comments of a specific URL
 
 }
 \description{
